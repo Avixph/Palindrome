@@ -1,0 +1,25 @@
+:root {
+  --first-color: #fe9813;
+  --second-color: #e77b0e;
+  --third-color: #a22000;
+  --fourth-color: #281200;
+  --fifth-color: #e4dede80;
+  --sixth-color: #e4dedec5;
+  --font: "IBM Plex Sans";
+  --shadow: 6px 6px 9px #0000006e, -6px -6px 9px #a3a0a025;
+  --shadow-inset: inset 6px 6px 9px #0000006e, inset -6px -6px 9px #a3a0a025;
+  --first-shadow-text: 2px 2px 4px rgba(0, 0, 0, 0.6), -1px -1px 3px #fff;
+  --second-shadow-text: 1px 1px 2px rgba(0, 0, 0, 0.3), -1px -1px 1.5px #fff;
+}
+body {
+  text-align: center;
+  color: #000000;
+  font-family: "MedievalSharp", cursive;
+  font-size: 30px;
+  background-color: var(--fourth-color);
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
