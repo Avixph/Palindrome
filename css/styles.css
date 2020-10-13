@@ -45,7 +45,7 @@ img {
   width: 90vw;
   height: 60vh;
   margin: -20px 0px;
-  margin-top: -150px;
+  margin-top: -130px;
 }
 
 .card {
@@ -54,7 +54,7 @@ img {
   perspective: 450px;
   text-align: center;
   border-radius: 5px;
-  margin-top: -100px;
+  margin-top: -140px;
 }
 
 .card__content {
@@ -145,6 +145,7 @@ button {
   right: 0px;
 }
 .back__button {
+  color: var(--second-color);
   border-radius: 10px 5px;
   position: absolute;
   bottom: 0px;

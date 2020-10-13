@@ -30,6 +30,13 @@
 
   function cardFlip() {
     cardContent.classList.toggle("is-flipped");
+    if (!isFrontCard) {
+      startButton.classList.add("display__none");
+      isFrontCard = true;
+    } else {
+      startButton.classList.remove("display__none");
+      isFrontCard = false;
+    }
   }
 
   form.addEventListener("submit", isPalindrome);
