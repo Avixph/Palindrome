@@ -45,7 +45,7 @@ img {
   width: 90vw;
   height: 60vh;
   margin: -20px 0px;
-  margin-top: -130px;
+  margin-top: -90px;
 }
 
 .card {
@@ -54,7 +54,7 @@ img {
   perspective: 450px;
   text-align: center;
   border-radius: 5px;
-  margin-top: -140px;
+  margin-top: -200px;
 }
 
 .card__content {
