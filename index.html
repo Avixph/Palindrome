@@ -4,18 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ROTATOR</title>
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <main>
-      <div class="banner">
-        <h1 class="logo"><img src="images/rotator_logo.svg" /></h1>
+      <div class="title">
+        <h1 class="logo">
+          <img src="images/rotator_logo.svg" />
+        </h1>
       </div>
       <div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="card">
+          <div class="card__content">
+            <div id="front" class="card__face card__front">
+              <h2>Is</h2>
+              <form class="enter__word">
+                <input
+                  id="form__input"
+                  class="word__input"
+                  type="text"
+                  placeholder="Enter Word"
+                  required="required"
+                />
+                <h2>a Palindrome?</h2>
+                <button
+                  aria-label="reset button"
+                  id="form__button"
+                  class="button start__button"
+                  type="submit"
+                >
+                  Check
+                </button>
+              </form>
+            </div>
+            <div id="back" class="card__face card__back">
+              <p class="back__result">Yes, _____ is a Palindrome.</p>
+              <button
+                aria-label="reset button"
+                id="back__button"
+                class="button back__button"
+              >
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <script src="js/script.js"></script>
